@@ -1,0 +1,19 @@
+{
+  "name": "ol-shade",
+  "version": "0.0.1",
+  "description": "一个基于openlayers开发的遮罩图层",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openlayers",
+    "shade",
+    "遮罩"
+  ],
+  "author": "hiker7",
+  "license": "ISC",
+  "dependencies": {
+    "ol": "^6.9.0"
+  }
+}
