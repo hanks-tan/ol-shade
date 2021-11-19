@@ -1,10 +1,18 @@
-import { Map } from "ol";
-import VectorLayer from "ol/layer/Vector";
-import VectorSource from "ol/source/Vector";
-import {Fill, Stroke, Style} from "ol/style";
-import { Geometry, Polygon, LinearRing, LineString, MultiLineString, MultiPolygon } from 'ol/geom' 
-import { Projection, createProjection } from "ol/proj";
-import Feature from 'ol/Feature'
+// import { Map } from "ol";
+// import VectorLayer from "ol/layer/Vector";
+// import VectorSource from "ol/source/Vector";
+// import {Fill, Stroke, Style} from "ol/style";
+// import { Geometry, Polygon, LinearRing, LineString, MultiLineString, MultiPolygon } from 'ol/geom' 
+// import { Projection } from "ol/proj";
+// import Feature from 'ol/Feature'
+// import { createProjection } from 'ol/proj'
+const Map = ol.Map
+const VectorLayer = ol.layer.Vector
+const VectorSource = ol.source.Vector
+const {Fill, Stroke, Style} = ol.style
+const { Geometry, Polygon, LinearRing, LineString, MultiLineString, MultiPolygon } = ol.geom
+const {Projection, createProjection } = ol.proj
+const Feature = ol.Feature
 
 class ShadeLayer{
   constructor (options) {
